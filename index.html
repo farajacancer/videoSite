@@ -1,0 +1,182 @@
+﻿
+<!DOCTYPE html>
+<html> 
+   <head>
+       <title>Faraja Videos</title>
+    <style>
+        .tag-navigation {
+            display: block;
+            
+            padding: 0;
+        }
+        .navigation-wrapper::after{
+            content: "";
+            display: block;
+            background: url(../Videos/dot-bg.png) repeat 0 0;
+            height: 31px;
+            width: 100%;
+            margin-bottom: 32px;
+        }
+
+        .tag-navigation li {
+            display: inline-flex;
+            list-style: none;
+            padding: 20px;
+            margin: 10px;
+        }
+
+        .tag-navigation li.active {
+            border-bottom: 2px solid #222222;
+            color: #222222;
+        }
+        .tag-navigation a {
+            color: #000;
+             font-weight: bold;
+             font-size: 14px;
+        }
+        .tag-navigation a:hover{
+            color:  #00adee;
+        }
+        .list-button {
+            float: right;
+            text-align: right;
+            width: 100%;
+            padding: 5px;
+            margin-left: 5px;
+            font-size: 19px;
+            border-top: 1px solid #00adee;
+            letter-spacing: 0;
+        }
+
+
+        .center {
+            justify-content: center;
+        }
+        .video-item{
+            position: sticky ;
+            top: 10px;
+        }
+        .video-item h2,
+        .video-list-item h2 {
+            font-size: 14px;
+            padding: 10px 0 0 0;
+            margin: 0px 0 0 0;
+        }
+        
+
+
+        .video-item h2 {
+            font-size: 22px;
+            text-align: left;
+        }
+
+        .video-item h3 {
+            font-size: 20px;
+            text-align: left;
+        }
+
+
+        .video-list-item {
+            
+            margin: 5px;
+            cursor: pointer;
+            position: relative;
+            display: grid;
+            
+        }
+        
+        .video-nav {
+            cursor: pointer;
+            border: solid 1px #d1d1d1;
+            margin-bottom: -3px;
+            position: relative;
+             z-index: 1;
+
+        }
+
+        .video-name-block {
+            vertical-align: baseline;
+            padding: 20px;
+            bottom: 0;
+            background: #ffffff;
+            border: 2px solid #ffffff;
+            transition: 0.2s;
+            line-height: 20px;
+        }
+        .video-name-block:hover{
+            border: 2px solid #000;
+            
+        }
+        .video-name-block ul{
+            padding-left: 16px;
+        }
+
+        video {
+            width: 100% !important;
+            height: auto !important;
+
+        }
+
+        .videoWrapper {
+            position: relative;
+            padding-bottom: 56.25%;
+            /* 16:9 */
+            padding-top: 25px;
+            height: 0;
+        }
+
+        .videoWrapper iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        .wrapper{
+
+            background: #f8f8f8;
+        }
+         #content{
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 1em;
+            padding-right: 1em;
+            max-width: 1080px;
+         }
+         @media screen and (min-width: 48em){
+            #content{
+                padding-left: 2em;
+                padding-right: 2em;
+            }
+        }
+
+        @media only screen and (max-width:35.5em){
+            .pure-u-sm-24-24.video-item {        
+                
+                position: inherit;
+
+            }
+        }
+
+    </style>
+    <link rel="stylesheet" href="/src/css/pure/pure-min.css">
+    <link rel="stylesheet" href="/src/css/pure/grids-responsive-min.css">
+    <script src="https://unpkg.com/jquery@3.3.1/dist/jquery.min.js" crossorigin></script>
+    <script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://cdn.jsdelivr.net/npm/commonjs-require@1.4.6/commonjs-require.js" crossorigin></script>
+   </head> 
+
+
+<body>
+    <div class="wrapper">
+        <h1>Faraja Videos</h1>
+        <div id="content"></div>
+    </div>
+
+<script src="dist/media.js"></script>
+</body>
+</html>
+
+

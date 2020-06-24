@@ -1,0 +1,101 @@
+export const videos = [
+    { id: 1, 
+        src: '../content/vericiguat-videos/al26346_u80_20190528090741_mentzi.mp4', 
+        speaker: 'Prof. Robert Mentz', 
+        title: 'Introduction to Heart Failure: Pathophysiology and Diagnosis', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['Past Events','ESC-HF Athens 2019'] 
+    },
+
+    { id: 2, 
+        src: '../content/vericiguat-videos/20190524122612_live4711_2019-05-24-10.45.04.494-UTC.mp4', 
+        speaker: 'Prof. Justin Ezekowitz', 
+        title: ' Overview of Treatment Guidelines in HFrEF and Emerging Therapies', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['Past Events','ESC-HF Athens 2019'] 
+    },
+    { id: 3, 
+        src: '../content/vericiguat-videos/al26346_u80_20190524181603_meii.mp4', 
+        speaker: 'Prof. Robert Mentz', title: 'Case Based Learning', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['Past Events','ESC-HF Athens 2019'] 
+    },
+    { id: 4, 
+        src: '../content/vericiguat-videos/20190524134607_live4711_2019-05-24-13.04.13.769-UTC.mp4', 
+        speaker: 'Prof. Justin Ezekowitz', 
+        title: 'Case Based Learning', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['Past Events','ESC-HF Athens 2019'] 
+    },
+    { id: 5, 
+        src: '../content/vericiguat-videos/20190524125354_live4711_2019-05-24-10.45.04.494-UTC.mp4', 
+        speaker: 'Panel', 
+        title: 'Q&A', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['Past Events','ESC-HF Athens 2019'] 
+    },
+    { id: 6, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'Management of chronic HF in a T2D patient', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 7, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', title: ' HFpEF from mechanisms to diagnosis', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 8, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'Up-to-date management of diabetic patients with heart failure', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 9, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', title: 'Clinical Cases on Heart Failure', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 10, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'Hyperkalaemia in Heart Failure', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+
+    { id: 11, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'Potassium and heart failure', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 12, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'A practical approach to diuretic use in heart failure', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+    { id: 13, 
+        src: '../content/vericiguat-videos/2/test.mp4', 
+        speaker: 'Panel', 
+        title: 'Therapeutic approach to HFpEF', 
+        publishedDate: '2019-05-24-10.45.04.494-UTC', 
+        tags:['ESC Webinars'] 
+    },
+
+    { id: 14, 
+        src: 'oWiUtb95Lgw', 
+        speaker: 'Panel', 
+        title: 'AHA 2015 | SOCRATES-REDUCED Study', 
+        publishedDate: '2015-11-08-00.00.00.000-UTC', 
+        tags:['Varrious'],
+        type:"youtube"
+    },
+];
